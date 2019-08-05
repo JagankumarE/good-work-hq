@@ -1,0 +1,27 @@
+.img_person{
+  height: 40px;
+  width: 40px;
+}
+.notify{
+  height: 30px;
+  vertical-align: middle;
+}
+
+.topAction{
+text-align: right;
+}
+.dropdown.custom{
+display: inline-block;
+}
+.imageSize{
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+.paddingBetweenIcons{
+  margin-left: 5px;
+}
+
+.flex-container{
+  padding-left: 520px;
+}

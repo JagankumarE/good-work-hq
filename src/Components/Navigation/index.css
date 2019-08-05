@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding-left: 40px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: 'sans serif','Open Sans';
+}
+
+a:hover{
+  color: red;
+}
+
+.nav_pan{
+  padding: 15px;
+  border-top: 1px solid #D1D1D1;
+}
