@@ -10,7 +10,9 @@ class RightHeader extends React.Component{
 
       <div class="dropdown custom btn-group dropleft">
        <button id="drop1" type="button" class="drop_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-       <img src="Assets/Images/Header2.png" class="notify imageSize" alt="notification"></img>
+       <i class="material-icons  imageSize">
+ notification_important
+ </i>
       </button>
 
       <ul class="dropdown-menu" aria-labelledby="drop1">
@@ -18,9 +20,12 @@ class RightHeader extends React.Component{
 
       </ul>
       </div>
-<div class = "dropdown custom paddingBetweenIcons">
+     <div class = "dropdown custom paddingBetweenIcons">
       <button id="prof2" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false">
-      <img src="Assets/Images/Header3.png" class="notify imageSize" alt="notification"></img>
+      <i    class="material-icons imageSize ">
+     perm_identity
+     </i>
+
       </button>
       <ul class="dropdown-menu" aria-labelledby="prof2">
       <li><a href="#">Option 1</a></li>

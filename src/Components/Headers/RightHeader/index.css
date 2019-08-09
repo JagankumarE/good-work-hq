@@ -5,6 +5,7 @@
 .notify{
   height: 30px;
   vertical-align: middle;
+  box-sizing: border-box;
 }
 
 .topAction{
@@ -12,6 +13,7 @@ text-align: right;
 }
 .dropdown.custom{
 display: inline-block;
+box-sizing: border-box;
 }
 .imageSize{
   height: 20px;
@@ -20,8 +22,9 @@ display: inline-block;
 }
 .paddingBetweenIcons{
   margin-left: 5px;
+  box-sizing: border-box;
 }
 
 .flex-container{
-  padding-left: 520px;
+  padding-left: 550px;
 }

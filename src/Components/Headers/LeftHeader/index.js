@@ -8,12 +8,12 @@ class LeftHeader extends React.Component{
     < div class ="container">
        <div class = "row">
                <div class ="col-md-6">
-               <img  class ="logo" src="Assets/images/Header1.png" ></img>
+      <a href ="http://localhost:3000">    <img  class ="logo" src="Assets/images/Header1.png" ></img></a>
                <span>Delliver to:</span>
 
                <button id="drop1" type="button" class="drop_btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                  <span>Akshay Tech Park, Whitefield, Bangalore </span>
-                 <img src="Assets/images/Header4.png"  class="img2" alt=""></img>
+              <img src="Assets/images/Header4.png"  class="img2" alt=""></img>
                </button>
                <ul class="dropdown-menu" aria-labelledby="drop1">
                  <li><a href="#">Akshay Tech Park, Whitefield, Bangalore 1</a></li>
